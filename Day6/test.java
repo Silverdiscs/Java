@@ -137,7 +137,7 @@ class Worker extends Person
 }
 public class test
 {
-    public static void main(String[] age)
+    public static void main(String[] args)
     {
         fun(new Person());
         fun(new Student());
