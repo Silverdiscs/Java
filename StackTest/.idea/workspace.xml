@@ -15,19 +15,31 @@
       <file leaf-file-name="LinkedStack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MyTest/stack/impl/LinkedStack.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="323">
               <caret line="44" column="38" lean-forward="true" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
+=======
+            <state relative-caret-position="285">
+              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+>>>>>>> cfbe84d75d95b16e644146a79c67e71d02fbe645
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayStack.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ArrayStack.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MyTest/stack/impl/ArrayStack.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="157">
               <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+=======
+            <state relative-caret-position="547">
+              <caret line="72" column="1" lean-forward="true" selection-start-line="10" selection-end-line="72" selection-end-column="1" />
+>>>>>>> cfbe84d75d95b16e644146a79c67e71d02fbe645
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1602#1603#0" expanded="true" />
+                <element signature="e#1641#1642#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -36,8 +48,13 @@
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MyTest/stack/Test.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="513">
               <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+=======
+            <state>
+              <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+>>>>>>> cfbe84d75d95b16e644146a79c67e71d02fbe645
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,7 +66,11 @@
         <entry file="file://$PROJECT_DIR$/src/MyTest/stack/Stack.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
+<<<<<<< HEAD
               <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+=======
+              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+>>>>>>> cfbe84d75d95b16e644146a79c67e71d02fbe645
             </state>
           </provider>
         </entry>
@@ -69,6 +90,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/MyTest/stack/Stack.java" />
         <option value="$PROJECT_DIR$/src/MyTest/stack/impl/some.java" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/src/MyTest/stack/Test.java" />
+>>>>>>> cfbe84d75d95b16e644146a79c67e71d02fbe645
         <option value="$PROJECT_DIR$/src/MyTest/stack/impl/LinkedStack.java" />
         <option value="$PROJECT_DIR$/src/MyTest/stack/impl/ArrayStack.java" />
         <option value="$PROJECT_DIR$/src/MyTest/stack/Test.java" />
@@ -85,9 +110,15 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="768" />
     <option name="y" value="37" />
     <option name="width" value="1324" />
+=======
+    <option name="x" value="926" />
+    <option name="y" value="83" />
+    <option name="width" value="1360" />
+>>>>>>> cfbe84d75d95b16e644146a79c67e71d02fbe645
     <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
@@ -96,8 +127,11 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="PackagesPane" />
+=======
+>>>>>>> cfbe84d75d95b16e644146a79c67e71d02fbe645
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,6 +169,11 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+>>>>>>> cfbe84d75d95b16e644146a79c67e71d02fbe645
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -230,15 +269,25 @@
       <workItem from="1558607507052" duration="55000" />
       <workItem from="1558609327601" duration="4103000" />
       <workItem from="1558659520115" duration="5367000" />
+<<<<<<< HEAD
       <workItem from="1558688336535" duration="2062000" />
+=======
+>>>>>>> cfbe84d75d95b16e644146a79c67e71d02fbe645
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="18642000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="615" y="30" width="1059" height="840" extended-state="0" />
+=======
+    <option name="totallyTimeSpent" value="16580000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="741" y="67" width="1088" height="840" extended-state="0" />
+>>>>>>> cfbe84d75d95b16e644146a79c67e71d02fbe645
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -268,6 +317,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3287858" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +334,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/MyTest/stack/impl/LinkedStack.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="285">
           <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
         </state>
@@ -303,11 +354,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+=======
+        <state relative-caret-position="627">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+>>>>>>> cfbe84d75d95b16e644146a79c67e71d02fbe645
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyTest/stack/impl/ArrayStack.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1368">
           <caret line="72" column="1" lean-forward="true" selection-start-line="10" selection-end-line="72" selection-end-column="1" />
           <folding>
@@ -325,10 +381,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyTest/stack/impl/ArrayStack.java">
       <provider selected="true" editor-type-id="text-editor">
+=======
+>>>>>>> cfbe84d75d95b16e644146a79c67e71d02fbe645
         <state relative-caret-position="1083">
           <caret line="57" column="38" lean-forward="true" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1602#1603#0" expanded="true" />
+            <element signature="e#1641#1642#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -363,6 +423,11 @@
           <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+<<<<<<< HEAD
+=======
+            <element signature="e#1602#1603#0" expanded="true" />
+            <element signature="e#1641#1642#0" expanded="true" />
+>>>>>>> cfbe84d75d95b16e644146a79c67e71d02fbe645
           </folding>
         </state>
       </provider>
@@ -388,6 +453,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="798">
           <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1602#1603#0" expanded="true" />
+            <element signature="e#1641#1642#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyTest/stack/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -417,6 +494,11 @@
           <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+<<<<<<< HEAD
+=======
+            <element signature="e#1602#1603#0" expanded="true" />
+            <element signature="e#1641#1642#0" expanded="true" />
+>>>>>>> cfbe84d75d95b16e644146a79c67e71d02fbe645
           </folding>
         </state>
       </provider>
@@ -432,6 +514,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyTest/stack/impl/some.java" />
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/MyTest/stack/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -443,12 +526,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/MyTest/stack/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+>>>>>>> cfbe84d75d95b16e644146a79c67e71d02fbe645
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://D:/JAVA/多线程/JUC/LockTest.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -465,6 +555,30 @@
           <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/MyTest/stack/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyTest/stack/impl/LinkedStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyTest/stack/impl/ArrayStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="72" column="1" lean-forward="true" selection-start-line="10" selection-end-line="72" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1602#1603#0" expanded="true" />
+            <element signature="e#1641#1642#0" expanded="true" />
+>>>>>>> cfbe84d75d95b16e644146a79c67e71d02fbe645
           </folding>
         </state>
       </provider>
