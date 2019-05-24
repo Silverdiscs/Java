@@ -8,8 +8,9 @@ import java.util.Arrays;
  * @Author: CX
  * @Date: 2019/5/23 上午 9:08
  * @Version 1.0
- * @Project: 基于数组实现栈
+ * @Project: 基于数组实现栈 —— 顺序栈
  */
+
 public class ArrayStack<T> implements Stack<T> {
     // 存放数据
     private Object[] elementData;
@@ -20,12 +21,12 @@ public class ArrayStack<T> implements Stack<T> {
 
     public ArrayStack(int maxSize) {
         this.maxSize = maxSize;
-        elementData = new  Object[maxSize];
+        elementData = new Object[maxSize];
     }
 
     @Override
     public boolean push(T t) {
-        if (currentSize == maxSize) {
+        if (currentSize == maxSize) {  // 栈已满
             // 动态扩容
             int oldSize = maxSize;
             int newSize = oldSize << 1;

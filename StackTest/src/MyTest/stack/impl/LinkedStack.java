@@ -6,8 +6,9 @@ import MyTest.stack.Stack;
  * @Author: CX
  * @Date: 2019/5/23 上午 9:51
  * @Version 1.0
- * @Project: 基于链表实现栈
+ * @Project: 基于链表实现栈 —— 链式栈
  */
+
 public class LinkedStack<T> implements Stack<T> {
     // 栈顶元素
     private Node top;
