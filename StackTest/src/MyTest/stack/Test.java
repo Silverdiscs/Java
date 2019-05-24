@@ -24,3 +24,4 @@ public class Test {
         System.out.println(stack.peek());
     }
 }
+
