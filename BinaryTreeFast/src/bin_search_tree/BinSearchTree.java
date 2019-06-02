@@ -8,6 +8,7 @@ import bin_tree.BinTree;
  * @Version 1.0
  * @Project: 二分搜索树
  */
+
 public class BinSearchTree<E extends Comparable<E>> implements BinTree<E> {
     // Node类的声明
     private class Node {
@@ -52,6 +53,8 @@ public class BinSearchTree<E extends Comparable<E>> implements BinTree<E> {
         return node;
     }
 
+    //****************************************************************
+
     @Override
     public boolean contains(E e) {
         if (root == null) { // 说明该二叉树为空
@@ -77,7 +80,8 @@ public class BinSearchTree<E extends Comparable<E>> implements BinTree<E> {
         }
     }
 
-    //**********************************************
+    //****************************************************************
+
     @Override
     public void preOrder() {
         preOrder(root);
@@ -95,7 +99,8 @@ public class BinSearchTree<E extends Comparable<E>> implements BinTree<E> {
         preOrder(node.right);
     }
 
-    //**********************************************
+    //****************************************************************
+
     @Override
     public void inOrder() {
         inOrder(root);
@@ -113,7 +118,8 @@ public class BinSearchTree<E extends Comparable<E>> implements BinTree<E> {
         inOrder(node.right);
     }
 
-    //**********************************************
+    //****************************************************************
+
     @Override
     public void postOrder() {
         postOrder(root);
@@ -131,37 +137,144 @@ public class BinSearchTree<E extends Comparable<E>> implements BinTree<E> {
         System.out.println(node.data);
     }
 
-    //**********************************************
+    //****************************************************************
 
     @Override
     public E getMin() {
-        return null;
+        if (root == null) {
+            throw new IllegalArgumentException("BST is empty!");
+        }
+        Node minNode = getMinNode(root);
+        return minNode.data;
     }
+
+    private Node getMinNode(Node node) {
+        if (node.left == null) {
+            return node;
+        }
+        return getMinNode(node.left);
+    }
+
+    //****************************************************************
 
     @Override
     public E getMax() {
-        return null;
+        if (root == null) {
+            throw new IllegalArgumentException("BST is empty!");
+        }
+        Node maxNode = getMaxNode(root);
+        return maxNode.data;
     }
+
+    private Node getMaxNode(Node node) {
+        if (node.right == null) {
+            return node;
+        }
+        return getMaxNode(node.left);
+    }
+
+    //****************************************************************
 
     @Override
     public E removeMin() {
-        return null;
+        E result = getMin();
+        root = removeMinNode(root);
+        return result;
     }
+
+    /**
+     * 删除传入二叉树的最小值节点
+     * @param node
+     * @return
+     */
+    private Node removeMinNode(Node node) {
+        // 找到需要删除的节点
+        if (node.left == null) {
+            Node rightNode = node.right;
+            node.right = null;
+            size--;
+            return rightNode;
+        }
+        // 继续向左走，直到找到要删除的最小值节点
+        node.left = removeMinNode(node.left);
+        return node;
+    }
+
+    //****************************************************************
 
     @Override
     public E removeMax() {
         return null;
     }
 
-    @Override
-    public boolean remove(E e) {
-        return false;
+    private Node removeMaxNode(Node node) {
+        if (node.right == null) {
+            Node leftNode = node.left;
+            node.left = null;
+            size--;
+            return leftNode;
+        }
+        node.right = removeMaxNode(node.right);
+        return node;
     }
+
+    //****************************************************************
+
+    @Override
+    public void remove(E e) {
+        root = remove(root,e);
+    }
+
+    /**
+     * 删除以 node 为根节点且值为 e 的节点
+     * @param node
+     * @param e
+     * @return
+     */
+    private Node remove(Node node,E e) {
+        if (node == null) {
+            return null;
+        }
+        if (e.compareTo(node.data) < 0) {
+            node.left = remove(node.left,e);
+        }
+        if (e.compareTo(node.data) > 0) {
+            node.right = remove(node.right,e);
+        }
+        // 此时 node就为需要删除的节点
+        else {
+            // 若此时节点只有一边孩子
+            if (node.left != null && node.right == null) {
+                Node leftNode = node.left;
+                size--;
+                node.left = null;
+                return leftNode;
+            }
+            if (node.right != null && node.left == null) {
+                Node rightNode = node.right;
+                size--;
+                node.right = null;
+                return rightNode;
+            }
+            if (node.left != null && node.right != null) {
+                Node successor = getMinNode(node.right);
+                successor.left = node.left;
+                successor.right = removeMinNode(node.right);
+                node.left = node.right = null;
+                return successor;
+            }
+        }
+        return node;
+    }
+
+    //****************************************************************
 
     @Override
     public int size() {
         return size;
     }
+
+    //****************************************************************
 
     @Override
     public String toString() {

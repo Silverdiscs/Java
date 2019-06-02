@@ -54,7 +54,7 @@ public interface BinTree<E> {
      * @param e
      * @return
      */
-    boolean remove(E e);
+    void remove(E e);
 
     /**
      * 取得节点个数
