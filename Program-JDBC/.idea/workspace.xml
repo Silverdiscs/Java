@@ -35,8 +35,8 @@
       <file leaf-file-name="JDBCDemo1.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/JDBCDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="181" column="41" lean-forward="true" selection-start-line="181" selection-start-column="41" selection-end-line="181" selection-end-column="41" />
+            <state relative-caret-position="-1832">
+              <caret line="79" column="50" lean-forward="true" selection-start-line="79" selection-start-column="50" selection-end-line="79" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,9 +104,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="911" />
+    <option name="x" value="511" />
     <option name="y" value="37" />
-    <option name="width" value="1018" />
+    <option name="width" value="1418" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
@@ -337,31 +337,11 @@
       <workItem from="1564193865918" duration="4888000" />
       <workItem from="1564359849997" duration="7284000" />
       <workItem from="1564382632262" duration="9140000" />
+      <workItem from="1564396356678" duration="167000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JDBCDemo1_test3 - 2019.07.29 at 17h 12m 45s.xml">
-      <configuration name="JDBCDemo1.test3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JDBCDemo1_test4 - 2019.07.29 at 17h 48m 51s.xml">
-      <configuration name="JDBCDemo1.test4" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JDBCDemo1_test4 - 2019.07.29 at 17h 51m 47s.xml">
-      <configuration name="JDBCDemo1.test4" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JDBCDemo1_test4 - 2019.07.29 at 17h 53m 34s.xml">
-      <configuration name="JDBCDemo1.test4" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JDBCDemo1_test5 - 2019.07.29 at 18h 16m 47s.xml">
-      <configuration name="JDBCDemo1.test5" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JDBCDemo1_test5 - 2019.07.29 at 18h 18m 43s.xml">
-      <configuration name="JDBCDemo1.test5" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JDBCDemo1_test5 - 2019.07.29 at 18h 19m 00s.xml">
-      <configuration name="JDBCDemo1.test5" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="JDBCDemo1_test5 - 2019.07.29 at 18h 19m 16s.xml">
       <configuration name="JDBCDemo1.test5" configurationId="JUnit" />
     </history-entry>
@@ -371,12 +351,33 @@
     <history-entry file="JDBCDemo1_test5 - 2019.07.29 at 18h 20m 06s.xml">
       <configuration name="JDBCDemo1.test5" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JDBCDemo1_test - 2019.07.29 at 18h 33m 01s.xml">
+      <configuration name="JDBCDemo1.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JDBCDemo1_test1 - 2019.07.29 at 18h 33m 08s.xml">
+      <configuration name="JDBCDemo1.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JDBCDemo1_test1 - 2019.07.29 at 18h 33m 27s.xml">
+      <configuration name="JDBCDemo1.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JDBCDemo1_test2 - 2019.07.29 at 18h 34m 53s.xml">
+      <configuration name="JDBCDemo1.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JDBCDemo1_test3 - 2019.07.29 at 18h 35m 08s.xml">
+      <configuration name="JDBCDemo1.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JDBCDemo1_test4 - 2019.07.29 at 18h 35m 13s.xml">
+      <configuration name="JDBCDemo1.test4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JDBCDemo1_test5 - 2019.07.29 at 18h 35m 18s.xml">
+      <configuration name="JDBCDemo1.test5" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21312000" />
+    <option name="totallyTimeSpent" value="21479000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="729" y="30" width="814" height="840" extended-state="0" />
+    <frame x="409" y="30" width="1134" height="840" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -429,6 +430,16 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/JDBCDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3439">
+          <caret line="181" column="41" lean-forward="true" selection-start-line="181" selection-start-column="41" selection-end-line="181" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/JDBCDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
           <folding>
@@ -459,13 +470,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Test.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/sql/Statement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
@@ -475,8 +480,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/JDBCDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="181" column="41" lean-forward="true" selection-start-line="181" selection-start-column="41" selection-end-line="181" selection-end-column="41" />
+        <state relative-caret-position="-1832">
+          <caret line="79" column="50" lean-forward="true" selection-start-line="79" selection-start-column="50" selection-end-line="79" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

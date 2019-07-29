@@ -55,7 +55,7 @@ public class JDBCDemo1 {
                             "root","1118");
             // 3. 执行SQL
             String sql = "insert into user(username,password)" +
-                    "values ('dov',456)";
+                    "values ('dok',456)";
             Statement statement = connection.createStatement();
             int resultRows = statement.executeUpdate(sql,
                     Statement.RETURN_GENERATED_KEYS);
@@ -81,7 +81,7 @@ public class JDBCDemo1 {
                     getConnection("jdbc:mysql://localhost:3306/jdbc",
                             "root","1118");
             // 3. 执行SQL
-            String sql = "delete from user where id = 1";
+            String sql = "delete from user where id = 9";
             Statement statement = connection.createStatement();
             int resultRows = statement.executeUpdate(sql,
                     Statement.RETURN_GENERATED_KEYS);
@@ -122,6 +122,7 @@ public class JDBCDemo1 {
             // 4. 释放资源
             connection.close();
             statement.close();
+            resultSet.close();
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (SQLException e) {
@@ -156,6 +157,7 @@ public class JDBCDemo1 {
             // 4. 释放资源
             connection.close();
             statement.close();
+            resultSet.close();
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (SQLException e) {
@@ -192,6 +194,7 @@ public class JDBCDemo1 {
             // 4. 释放资源
             connection.close();
             statement.close();
+            resultSet.close();
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (SQLException e) {
