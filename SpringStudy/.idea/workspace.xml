@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="70052987-0c27-47a1-ba39-d85a75b00eeb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1USyadamXdySFzajGZeVlqWiXqO" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\SpringStudy\spring-01-ioc\src\test\java" />
+      <recent name="D:\Code\SpringStudy\spring-01-ioc\src\main\java\com\jackin\service" />
+      <recent name="D:\Code\SpringStudy\spring-01-ioc\src\main\java\com\jackin\dao" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MyTest (2)">
+    <configuration name="MyTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <module name="spring-01-ioc" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <module name="spring-04-di" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <module name="spring-02-hellospring" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <module name="spring-03-ioc2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyTest (2)" />
+        <item itemvalue="Application.MyTest" />
+        <item itemvalue="Application.MyTest" />
+        <item itemvalue="Application.MyTest" />
+        <item itemvalue="Application.MyTest (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70052987-0c27-47a1-ba39-d85a75b00eeb" name="Default Changelist" comment="" />
+      <created>1575364355519</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575364355519</updated>
+      <workItem from="1575364358077" duration="11721000" />
+      <workItem from="1575444599072" duration="6920000" />
+      <workItem from="1575614559940" duration="7976000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="105" width="814" height="731" key="#Intentions" timestamp="1575371231996">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="361" y="105" width="814" height="731" key="#Intentions/0.30.1536.834@0.30.1536.834" timestamp="1575371231996" />
+    <state x="467" y="103" key="#MyTest" timestamp="1575445698986">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="467" y="103" key="#MyTest/0.30.1536.834@0.30.1536.834" timestamp="1575445698986" />
+    <state x="467" y="103" key="#MyTest_(2)" timestamp="1575445688150">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="467" y="103" key="#MyTest_(2)/0.30.1536.834@0.30.1536.834" timestamp="1575445688150" />
+    <state x="361" y="105" key="#Project_Structure" timestamp="1575444719850">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="361" y="105" key="#Project_Structure/0.30.1536.834@0.30.1536.834" timestamp="1575444719850" />
+    <state x="504" y="249" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575370044784">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="504" y="249" key="#com.intellij.fileTypes.FileTypeChooser/0.30.1536.834@0.30.1536.834" timestamp="1575370044784" />
+    <state x="1041" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1575622960108">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="1041" y="136" key="#com.intellij.ide.util.MemberChooser/0.30.1536.834@0.30.1536.834" timestamp="1575622960108" />
+    <state width="1493" height="557" key="GridCell.Tab.0.bottom" timestamp="1575625296108">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="557" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1575625296108" />
+    <state width="1493" height="557" key="GridCell.Tab.0.center" timestamp="1575625296107">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="557" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1575625296107" />
+    <state width="1493" height="557" key="GridCell.Tab.0.left" timestamp="1575625296107">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="557" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1575625296107" />
+    <state width="1493" height="557" key="GridCell.Tab.0.right" timestamp="1575625296107">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="557" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1575625296107" />
+    <state x="270" y="89" key="SettingsEditor" timestamp="1575614611819">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="270" y="89" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1575614611819" />
+    <state x="329" y="258" width="1180" height="488" key="new project wizard" timestamp="1575617461292">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="329" y="258" width="1180" height="488" key="new project wizard/0.30.1536.834@0.30.1536.834" timestamp="1575617461292" />
+    <state x="449" y="130" key="spring file set editor" timestamp="1575624994811">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="449" y="130" key="spring file set editor/0.30.1536.834@0.30.1536.834" timestamp="1575624994811" />
+  </component>
+</project>

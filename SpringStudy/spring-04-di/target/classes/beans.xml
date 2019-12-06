@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="address" class="com.Jackin.pojo.Address">
+        <property name="address" value="西安"/>
+    </bean>
+
+    <bean id="student" class="com.Jackin.pojo.Student">
+        <!--第一种、普通值注入，value-->
+        <property name="name" value="Dov"/>
+        <!--第二种、Bean注入，ref-->
+        <property name="address" ref="address"/>
+        <!--数组注入-->
+        <property name="books">
+            <array>
+                <value>红楼梦</value>
+                <value>西游记</value>
+                <value>水浒传</value>
+                <value>三国演义</value>
+            </array>
+        </property>
+        <!--List注入-->
+        <property name="hobbies">
+            <list>
+                <value>电影</value>
+                <value>音乐</value>
+                <value>篮球</value>
+            </list>
+        </property>
+        <!--Map注入-->
+        <property name="card">
+            <map>
+                <entry key="身份证" value="610423188702171725"/>
+                <entry key="银行卡" value="612178111309171728"/>
+            </map>
+        </property>
+        <!--Set注入-->
+        <property name="games">
+            <set>
+                <value>2K14</value>
+                <value>2K19</value>
+                <value>2K20</value>
+            </set>
+        </property>
+        <!--空值null注入-->
+        <property name="wife">
+            <null/>
+        </property>
+        <!--Properties-->
+        <property name="info">
+            <props>
+                <prop key="学号">20191118</prop>
+                <prop key="性别">Male</prop>
+                <prop key="国籍">中国</prop>
+            </props>
+        </property>
+    </bean>
+</beans>

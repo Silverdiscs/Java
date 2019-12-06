@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--使用Spring来创建对象，在Spring中这些都称为Bean
+        类型 变量名 = new 类型();  Hello hello = new Hello();
+
+        交给Spring后，这个过程就变为 ↓
+
+        bean即对象， new Hello();
+        id = 变量名  class = new的对象
+        property 相对于给对象中的属性设置一个值
+    -->
+
+    <bean id="user" class="com.Jackin.pojo.User">
+        <!--<property name="name" value="KingJames"/>-->
+
+        <!--  ↑上面是通过无参构造创建对象，下面三种是通过有参构造创建对象↓  -->
+
+        <!--第一种，下标赋值!-->
+        <!--  <constructor-arg index="0" value="Lakers"/>  -->
+
+        <!--第二种，通过类型创建，不建议使用！-->
+        <!--  <constructor-arg type="java.lang.String" value="Champions"/>-->
+
+        <!--第三种，直接通过参数名来设置-->
+        <constructor-arg name="name" value="MVP"/>
+
+    </bean>
+    <!-- 如果添加了别名，我们也可以使用别名获取到这个对象-->
+    <alias name="user" alias="NBA"/>
+    <!--
+        id：bean的唯一标识符，也就是相当于我们学的对象名
+        class：bean对象所对应的权限命名 ———— 包名+类型
+        name：也是别名,而且name更高级，可以同时取多个别名！
+    -->
+    <bean id="userT" class="com.Jackin.pojo.UserT" name="user2,u2">
+        <property name="name" value="ThisIsWhyWePlay!"/>
+    </bean>
+</beans>
